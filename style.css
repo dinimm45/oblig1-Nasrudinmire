@@ -1,0 +1,75 @@
+body{
+  background-color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  
+}
+
+header{
+  box-shadow: 1px 1px;
+  display: flex;
+  box-shadow: 0px 8px 16px #00000020;
+
+}
+
+nav {
+width: 100%;
+}
+
+ul {
+display: flex;
+}
+
+li {
+list-style-type: none;
+}
+
+.addbtn{
+  background-color: #56d4c2;
+  border:none;
+  color: white;
+  border-radius: 8px;
+  height: 42px;
+  width: 141px;
+}
+
+.cardbtn{
+  color: #ffffff;
+  background-color: #56d4c2;
+  border: none;
+
+}
+
+.inputText{
+  grid-row: 2;
+  margin-bottom: 0;
+  padding-top: 45px;
+  width: 80%;
+}
+
+.inputContent
+{
+  grid-row: 2;
+  margin-bottom: 0;
+  padding-top: 45px;
+  width: 80%;
+}
+
+.cardSection {
+  grid-column: 1/6;
+  grid-row: 3;
+  grid-gap: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  
+  }
+
+  article{
+    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+
+  }
+
+
